@@ -17,6 +17,7 @@ public class Calculadora {
         System.out.println("Multi: "+multiplicar(x,y));
         System.out.println("Restar: "+restar(x,y));
 	//Ahora tendría que estar el método resta avanzado
+	//ahora sería la función con numeros romanos
         
     }
     
@@ -33,4 +34,5 @@ public class Calculadora {
     int s=a-b;
     return s;
     }
+	//Aqui estaria la función de numeros romanos
 }
