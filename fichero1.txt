@@ -15,7 +15,7 @@ public class Calculadora {
         
         System.out.println("Suma: "+sumar(x,y));
         System.out.println("Multi: "+multiplicar(x,y));
-        
+        System.out.println("Restar: "+restar(x,y));
         
     }
     
@@ -27,5 +27,8 @@ public class Calculadora {
         int s=a*b;
         return s;
     }
-    
+    public static int restar(int a, int b){
+        int s=a-b;
+        return s;
+    }
 }
