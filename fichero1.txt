@@ -16,6 +16,7 @@ public class Calculadora {
         System.out.println("Suma: "+sumar(x,y));
         System.out.println("Multi: "+multiplicar(x,y));
         System.out.println("Restar: "+restar(x,y));
+	//Ahora tendría que estar el método resta avanzado
         
     }
     
@@ -27,8 +28,9 @@ public class Calculadora {
         int s=a*b;
         return s;
     }
+    //este método resta tendría que estar mejorado
     public static int restar(int a, int b){
-        int s=a-b;
-        return s;
+    int s=a-b;
+    return s;
     }
 }
